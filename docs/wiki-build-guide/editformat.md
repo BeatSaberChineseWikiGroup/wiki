@@ -1,6 +1,13 @@
-# 格式指南
+---
+sidebar_position: 200
+---
 
-欢迎你来编辑节奏光剑中文维基
+
+# 编辑格式指南
+
+这里记录了维基编辑所需的格式。
+
+<提示>关于Docusaurus原本可用的格式内容，请参考[官方文档](https://docusaurus.io/docs)。</提示>
 
 <提示>为了你能获得流畅的中文编写体验，这个维基的所有组件都是基于中文定制的！</提示>
 
@@ -65,28 +72,3 @@
 ### 示例
 
 <模组 平台="PC" 名称="BeatLeader" />
-
-## 开发者示例
-
-这里记录如何为维基添加一个中文标签。
-
-如果需要在Markdown中支持以下内容：
-
-```html
-<示例标签 属性xxx="xx">asf</示例标签>
-```
-
-文件`src/theme/MDXComponents.tsx`中应该包含以下内容，请注意`示例标签`的写法：
-```tsx
-import React from 'react';
-import MDXComponents from '@theme-original/MDXComponents';
-
-function 示例标签({children, 属性xxx}){
-    return <div className="example_class">{children}</div>
-}
-
-export default {
-  ...MDXComponents,
-  示例标签,
-};
-```

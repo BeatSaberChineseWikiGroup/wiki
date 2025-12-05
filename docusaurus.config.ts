@@ -39,12 +39,15 @@ const config: Config = {
     [
       'classic',
       {
+        pages:{
+          editUrl: 'https://github.com/BeatSaberChineseWikiGroup/wiki/edit/master/'
+        },
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/BeatSaberChineseWikiGroup/wiki/edit/master/',
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +57,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/BeatSaberChineseWikiGroup/wiki/edit/master/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -70,19 +73,21 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
+      // disableSwitch: true,
+      // defaultMode: 'dark'
     },
     navbar: {
       title: '节奏光剑模组中文维基',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: '节奏光剑模组中文维基',
+        src: 'img/bsicon.png',
       },
       items: [
         {to: '/blog', label: '博客', position: 'left'},
-        {to: '/format', label: '编辑指南', position: 'left'},
+        {to: '/docs/category/维基建设指南', label: '维基建设', position: 'left'},
         {
           href: 'https://github.com/BeatSaberChineseWikiGroup/wiki',
           label: 'GitHub',
