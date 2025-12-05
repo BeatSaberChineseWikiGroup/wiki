@@ -1,0 +1,14 @@
+---
+sidebar_position: -1
+---
+
+
+# 欢迎建设维基
+
+我们对新手友好，你可以点击左侧导航，浏览维基建设的相关内容。
+
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+

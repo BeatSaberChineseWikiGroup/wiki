@@ -9,18 +9,18 @@ function return_type(ty, title, children){
 }
 
 export default {
-    备注({children, 标题, 内容}) {
-        return return_type('note', 标题, 内容 || children)
-    },提示({children, 标题, 内容}) {
-        return return_type('tip', 标题, 内容 || children)
-    },信息({children, 标题, 内容}) {
-        return return_type('info', 标题, 内容 || children)
-    },危险({children, 标题, 内容}) {
-        return return_type('danger', 标题, 内容 || children)
-    },警告({children, 标题, 内容}) {
-        return return_type('caution', 标题, 内容 || children)
-    },错误({children, 标题, 内容}) {
-        return return_type('danger', 标题 || "错误", 内容 || children)
+    备注({children, 标题, 内容, title, content}) {
+        return return_type('note', 标题|| title, 内容 || content || children)
+    },提示({children, 标题, 内容, title, content}) {
+        return return_type('tip', 标题|| title, 内容 || content || children)
+    },信息({children, 标题, 内容, title, content}) {
+        return return_type('info', 标题|| title, 内容 || content || children)
+    },危险({children, 标题, 内容, title, content}) {
+        return return_type('danger', 标题|| title, 内容 || content || children)
+    },警告({children, 标题, 内容, title, content}) {
+        return return_type('caution', 标题|| title, 内容 || content || children)
+    },错误({children, 标题, 内容, title, content}) {
+        return return_type('danger', 标题 || title || "错误", 内容 || content || children)
     }
 } 
 

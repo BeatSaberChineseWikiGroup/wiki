@@ -3,6 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import docsFiles from "./docs"
+
+function getDocFiles(){
+  let ret = []
+  docsFiles.forEach(v=>{
+    if(v.displayInNav){
+      ret.push({
+        to:'/docs/' + v.dirName,
+        label: v.displayName
+      })
+    }
+  })
+  return ret
+}
 
 const config: Config = {
   title: '节奏光剑模组中文维基',
@@ -50,6 +64,7 @@ const config: Config = {
             'https://github.com/BeatSaberChineseWikiGroup/wiki/edit/master/',
         },
         blog: {
+          blogSidebarTitle: '最近更新',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -86,20 +101,21 @@ const config: Config = {
         src: 'img/bsicon.png',
       },
       items: [
-        {to: '/blog', label: '博客', position: 'left'},
-        {to: '/docs/category/维基建设指南', label: '维基建设', position: 'left'},
+        ...getDocFiles(),
+        // {to: '/docs/category/维基建设指南', label: '维基建设', position: 'left'},
         {
           href: 'https://github.com/BeatSaberChineseWikiGroup/wiki',
           label: 'GitHub',
           position: 'right',
         },
+        {to: '/blog', label: '博客', position: 'left'},
       ],
     },
     footer: {
       style: 'dark',
       links: [
       ],
-      copyright: `版权所有 © ${new Date().getFullYear()} 节奏光剑中文维基编辑组，基于扩展的Docusaurus。`,
+      copyright: `版权所有 © ${new Date().getFullYear()} 节奏光剑中文维基编辑组，基于扩展的Docusaurus。维基内容以CC BY-NC-SA 4.0协议许可，严禁商业使用。`,
     },
     prism: {
       theme: prismThemes.github,
