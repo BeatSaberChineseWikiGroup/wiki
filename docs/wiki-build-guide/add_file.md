@@ -13,7 +13,7 @@ sidebar_position: 5
 
 
 不同分类的内容，请放在docs的子文件夹下面。
-docs下的每一个子文件夹都需要在[docs.ts](https://github.com/BeatSaberChineseWikiGroup/wiki/edit/master/docs.ts)文件中追加记录。
+docs下的每一个子文件夹都需要在[docs.ts](https://github.com/BeatSaberCN/wiki/edit/master/docs.ts)文件中追加记录。
 
 其中displayInNav表示在网页上方显示大分类导航，而noSidebar则表示是否在正文建立左侧边栏。
 
