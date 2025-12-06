@@ -11,7 +11,7 @@ sidebar_position: 1001
 ## TLDR
 
 ```sh
-git clone git@github.com:BeatSaberChineseWikiGroup/wiki.git
+git clone git@github.com:BeatSaberCN/wiki.git
 cd wiki
 npm install
 npm start
@@ -29,7 +29,7 @@ npm start
 找一个干净的文件夹，右键点击`Open Git Bash here`，并执行以下命令：
 
 ```sh
-git clone git@github.com:BeatSaberChineseWikiGroup/wiki.git
+git clone git@github.com:BeatSabeCN/wiki.git
 ```
 
 你会看到新出现的wiki文件夹，进入它。
