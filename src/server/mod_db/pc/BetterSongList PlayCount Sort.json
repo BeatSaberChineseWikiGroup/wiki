@@ -18,12 +18,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/SteffanDonal/BeatSaber-BetterSongList-PlayCount"
+  ], 
   "iscore": false, 
   "authors": [
     "Steffan Donal"
   ], 
   "desc_en": "Adds a \"Play Count\" sort for BetterSongList!", 
   "editpath": "src/server/mod_db/pc/BetterSongList PlayCount Sort.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 336
 }

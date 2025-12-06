@@ -32,12 +32,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/lolPants/BeatSaverSharp"
+  ], 
   "iscore": false, 
   "authors": [
     "BeatMods Import"
   ], 
   "desc_en": "Official C# Library to interact with the BeatSaver API\n\nThis mod was imported from BeatMods, and was originally uploaded by lolpants at 2019-12-28T23:01:35.248Z.", 
   "editpath": "src/server/mod_db/pc/BeatSaverSharp.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 101
 }

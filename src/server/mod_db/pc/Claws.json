@@ -16,12 +16,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/SteffanDonal/BeatSaber-Claws"
+  ], 
   "iscore": false, 
   "authors": [
     "Steffan Donal"
   ], 
   "desc_en": "Gameplay modifier that shrinks sabers by 70% (from 1m to 0.3m) & alters grip.", 
   "editpath": "src/server/mod_db/pc/Claws.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 126
 }

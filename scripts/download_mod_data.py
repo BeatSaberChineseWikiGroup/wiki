@@ -44,6 +44,7 @@ class BufferedMod:
             }
         self.authors = set()
         self.versions = set()
+        self.links = set(self.json["extern_links"])
 
     def save(self):
         auths = list(self.authors)
@@ -52,6 +53,10 @@ class BufferedMod:
         vers = list(self.versions)
         vers.sort()
         self.json["game_ver"] = vers
+
+        links = list(self.links)
+        links.sort()
+        self.json["extern_links"] = links
 
         self.file.write_text(json.dumps(self.json, indent=2, ensure_ascii=False, separators=(', ',': ')), encoding='utf8')
 
@@ -80,7 +85,13 @@ for version in VERSIONS_QUEST:
             buffered_page.json["iscore"] = latest["id"] in coremod_ids
             buffered_page.json["editpath"] = page_name
 
-
+        if "website" in latest and latest["website"] != None and latest["website"] != "":
+            buffered_page.links.add(latest["website"])
+        if "source" in latest and latest["source"] != None and latest["source"] != "":
+            buffered_page.links.add(latest["source"])
+        if "funding" in latest and latest["funding"] != None:
+            for f in latest["funding"]:
+                buffered_page.links.add(f)
         buffered_page.authors.add(latest["author"])
         buffered_page.versions.add(version)
 
@@ -108,6 +119,7 @@ for version in VERSIONS_PC:
             buffered_page.authors.add(author['displayName'])
         for ver in _latest["supportedGameVersions"]:
             buffered_page.versions.add(ver["version"])
-
+        buffered_page.links.add(_mod["gitUrl"])
+        buffered_page.json["beatmods_id"] = _mod['id']
 for buf in buffered_pages:
     buffered_pages[buf].save()

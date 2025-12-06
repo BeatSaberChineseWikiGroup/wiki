@@ -11,12 +11,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Aeroluna/Heck"
+  ], 
   "iscore": false, 
   "authors": [
     "Aeroluna"
   ], 
   "desc_en": "Library for Aeroluna's mods.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2024-11-20T01:32:30.296Z.", 
   "editpath": "src/server/mod_db/pc/Heck.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 338
 }

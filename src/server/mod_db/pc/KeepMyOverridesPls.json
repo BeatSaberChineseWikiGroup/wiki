@@ -19,12 +19,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/qqrz997/KeepMyOverridesPls"
+  ], 
   "iscore": false, 
   "authors": [
     "qqrz997"
   ], 
   "desc_en": "Stops the game from disabling your precious environment and colour scheme overrides.", 
   "editpath": "src/server/mod_db/pc/KeepMyOverridesPls.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 317
 }

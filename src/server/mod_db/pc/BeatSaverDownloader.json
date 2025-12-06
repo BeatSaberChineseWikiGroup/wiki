@@ -15,12 +15,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Top-Cat/BeatSaverDownloader"
+  ], 
   "iscore": false, 
   "authors": [
     "Thomas Cheyney"
   ], 
   "desc_en": "Enables you to download songs from BeatSaver in-game.", 
   "editpath": "src/server/mod_db/pc/BeatSaverDownloader.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 5
 }

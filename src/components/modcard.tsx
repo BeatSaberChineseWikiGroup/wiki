@@ -7,6 +7,11 @@ import { ModData } from '../mod_data';
 import modDataGenerated from "@site/src/server/mod_data_generated"
 import Link from '@docusaurus/Link';
 import urls from '@site/urls';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import GithubSvg from "@site/src/icons/github-mark.svg"
+import BeatModsSvg from "@site/src/icons/Beatmods.svg"
+
 function getPageName(){
         let pageName = undefined
     {
@@ -34,12 +39,44 @@ function renderMod(modData: ModData){
         isSelfPage = true
     }
 
+    let extern_id = 1
+
+    modData.extern_links.forEach((v,index)=>{
+        let btnName:any = "外链"
+        if(v.indexOf("github.com") > 0){
+            btnName = <GithubSvg style={{
+                transform:"scale(0.15)",
+                margin:"-42px"
+            }} />
+        }else if(v.indexOf("patreon.com") > 0)
+            btnName = "捐助"
+        else
+            btnName = "外链" + (extern_id++)
+        if (btnName == "外链1"){
+            btnName = "外链"
+        }
+        foots.push(<a key={"extern"+index} target='_blank' style={{width:"fit-content", padding:'8px', display:"inline-block"}} href={v} className="button button--sm button--active button--link">
+            {btnName}
+        </a>)
+
+    })
+
+    if(modData.beatmods_id != undefined && modData.beatmods_id != null){
+        foots.push(<a key="beatmods" target='_blank' style={{width:"fit-content", padding:'8px', display:"inline-block"}} href={'https://beatmods.com/mods/' + modData.beatmods_id} className="button button--sm button--active button--link">
+            <BeatModsSvg style={{
+                transform:"scale(0.8) translateY(-5px)",
+                margin:"-10px"
+            }}/>
+        </a>)
+    }
+    
     if(isNotSelfPage){
-        foots.push(<div className="card__footer">
-            <a href={useBaseUrl('docs/mod-info/'+modData.modPage)} className="button button--secondary button--block">转到介绍</a>
-        </div>)
+        foots.push(
+            <a key="wikipage" target='_blank' style={{width:"fit-content", padding:'8px', display:"inline-block"}} href={useBaseUrl('docs/mod-info/'+modData.modPage)} className="button button--sm button--active button--link">维基详情</a>
+        )
     }
 
+    foots.push(<a key="edit" target='_blank' href={urls.edit_url + modData.editpath } style={{padding:"8px"}} className="button button--sm button--active button--link">编辑</a>)
     const cardStyle:CSSProperties = {
         margin: "16px"
     }
@@ -67,9 +104,10 @@ function renderMod(modData: ModData){
                 </p>
                 <p dangerouslySetInnerHTML={{__html: modData.desc_zh ?? modData.desc_en}}>
                 </p>
-                <p style={{textAlign:'right'}}><a href={urls.edit_url + modData.editpath } >编辑</a></p>
             </div>
+            <div className="card__footer" style={{textAlign:"right"}}>
             {foots}
+            </div>
         </div>
     </div>
 

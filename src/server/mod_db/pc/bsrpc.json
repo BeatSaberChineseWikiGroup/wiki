@@ -17,12 +17,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/DJDavid98/bsrpc"
+  ], 
   "iscore": false, 
   "authors": [
     "Double Colon"
   ], 
   "desc_en": "Discord Rich Presence integration for Beat Saber", 
   "editpath": "src/server/mod_db/pc/bsrpc.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 300
 }

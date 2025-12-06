@@ -57,12 +57,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/protobuf-net/protobuf-net"
+  ], 
   "iscore": false, 
   "authors": [
     "BeatMods Import"
   ], 
   "desc_en": "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications\n\nThis mod was imported from BeatMods, and was originally uploaded by Kinsi55 at 2021-04-14T06:03:17.574Z.", 
   "editpath": "src/server/mod_db/pc/protobuf-net.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 194
 }

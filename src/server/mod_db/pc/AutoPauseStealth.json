@@ -15,12 +15,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Aryetis/AutoPauseStealth"
+  ], 
   "iscore": false, 
   "authors": [
     "Aryetis"
   ], 
   "desc_en": "Automatically and stealthily pause your game at the start of every song waiting for potential lag spikes to end.", 
   "editpath": "src/server/mod_db/pc/AutoPauseStealth.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 142
 }

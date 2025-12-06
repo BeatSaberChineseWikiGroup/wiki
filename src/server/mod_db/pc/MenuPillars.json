@@ -14,12 +14,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Sirspam/MenuPillars"
+  ], 
   "iscore": false, 
   "authors": [
     "Sirspam"
   ], 
   "desc_en": "Beat Saber mod that brings back the pillars from the 1.13.2 menu environment and adds customisable lights to them", 
   "editpath": "src/server/mod_db/pc/MenuPillars.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 262
 }

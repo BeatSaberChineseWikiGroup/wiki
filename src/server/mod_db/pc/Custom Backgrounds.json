@@ -15,12 +15,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Redageddon/CustomBackgrounds"
+  ], 
   "iscore": false, 
   "authors": [
     "Redageddon"
   ], 
   "desc_en": "Allows you to add equirectangular images as backgrounds", 
   "editpath": "src/server/mod_db/pc/Custom Backgrounds.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 322
 }

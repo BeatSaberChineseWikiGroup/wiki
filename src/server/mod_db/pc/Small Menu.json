@@ -19,12 +19,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/nicoco007/BeatSaberSmallMenu"
+  ], 
   "iscore": false, 
   "authors": [
     "nicoco007"
   ], 
   "desc_en": "Makes the main menu smaller & closer, just like it was in Beat Saber 1.13.0.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2021-12-22T18:28:07.337Z.", 
   "editpath": "src/server/mod_db/pc/Small Menu.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 253
 }

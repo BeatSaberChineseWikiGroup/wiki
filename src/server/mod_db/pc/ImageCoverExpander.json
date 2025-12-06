@@ -17,12 +17,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/qqrz997/ImageCoverExpander_PC"
+  ], 
   "iscore": false, 
   "authors": [
     "qqrz997"
   ], 
   "desc_en": "Expands and customize the image cover container in the song selection!", 
   "editpath": "src/server/mod_db/pc/ImageCoverExpander.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 116
 }

@@ -24,12 +24,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/nicoco007/BeatSaber-ExtraOpenXRFeatures/tree/main/OpenXRHands"
+  ], 
   "iscore": false, 
   "authors": [
     "nicoco007"
   ], 
   "desc_en": "Adds hand/finger tracking support for OpenXR.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:44:44.113Z.", 
   "editpath": "src/server/mod_db/pc/OpenXR Hands.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 313
 }

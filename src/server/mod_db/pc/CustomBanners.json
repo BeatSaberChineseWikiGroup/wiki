@@ -15,12 +15,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/ToniMacaroni/CustomBanners"
+  ], 
   "iscore": false, 
   "authors": [
     "Loloppe"
   ], 
   "desc_en": "Display images as banners or cycle through them automatically\n\nThis mod was imported from BeatMods, and was originally uploaded by Toni Macaroni at 2021-09-05T18:43:59.689Z.", 
   "editpath": "src/server/mod_db/pc/CustomBanners.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 217
 }

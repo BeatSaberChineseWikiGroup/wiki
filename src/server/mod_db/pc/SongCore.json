@@ -13,12 +13,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Kylemc1413/SongCore"
+  ], 
   "iscore": true, 
   "authors": [
     "Meivyn"
   ], 
   "desc_en": "A plugin for handling custom songs in Beat Saber.", 
   "editpath": "src/server/mod_db/pc/SongCore.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 58
 }

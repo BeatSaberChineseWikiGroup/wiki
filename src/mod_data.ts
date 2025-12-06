@@ -10,4 +10,5 @@ export interface ModData{
     iscore: boolean,
     authors: string[],
     editpath: string,
+    beatmods_id?: number,
 }

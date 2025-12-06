@@ -44,12 +44,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Aeroluna/Heck"
+  ], 
   "iscore": false, 
   "authors": [
     "Aeroluna"
   ], 
   "desc_en": "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beatmods sucks.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-11-30T01:53:15.808Z.", 
   "editpath": "src/server/mod_db/pc/LookupID.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 231
 }

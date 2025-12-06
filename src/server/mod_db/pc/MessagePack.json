@@ -26,12 +26,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/MessagePack-CSharp/MessagePack-CSharp"
+  ], 
   "iscore": false, 
   "authors": [
     "BeatMods Import"
   ], 
   "desc_en": "The extremely fast MessagePack serializer for C#.\n\nThis mod was imported from BeatMods, and was originally uploaded by Meivyn at 2024-03-22T06:52:30.398Z.", 
   "editpath": "src/server/mod_db/pc/MessagePack.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 315
 }

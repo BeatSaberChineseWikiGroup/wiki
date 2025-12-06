@@ -6,7 +6,10 @@
     "1.40.8_7379"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/hardcpp/QBeatSaberPlus-Multiplayer-Download/", 
+    "https://patreon.com/BeatSaberPlus"
+  ], 
   "iscore": false, 
   "authors": [
     "HardCPP#1985"

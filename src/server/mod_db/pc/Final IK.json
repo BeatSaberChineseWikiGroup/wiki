@@ -25,12 +25,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://assetstore.unity.com/packages/tools/animation/final-ik-14290"
+  ], 
   "iscore": false, 
   "authors": [
     "nicoco007"
   ], 
   "desc_en": "The final Inverse Kinematics solution for Unity.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-19T21:26:42.419Z.", 
   "editpath": "src/server/mod_db/pc/Final IK.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 318
 }

@@ -19,12 +19,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/qqrz997/BeatSaberCustomWalls"
+  ], 
   "iscore": false, 
   "authors": [
     "qqrz997"
   ], 
   "desc_en": "A plugin for custom walls in Beat Saber", 
   "editpath": "src/server/mod_db/pc/CustomWalls.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 110
 }

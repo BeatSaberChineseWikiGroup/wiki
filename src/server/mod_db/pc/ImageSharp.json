@@ -45,12 +45,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/SixLabors/ImageSharp/"
+  ], 
   "iscore": false, 
   "authors": [
     "BeatMods Import"
   ], 
   "desc_en": "A modern, cross-platform, 2D Graphics library for .NET\n\nThis mod was imported from BeatMods, and was originally uploaded by PixelBoom at 2022-03-16T05:18:26.823Z.", 
   "editpath": "src/server/mod_db/pc/ImageSharp.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 257
 }

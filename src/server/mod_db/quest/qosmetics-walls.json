@@ -6,7 +6,12 @@
     "1.37.0_9064817954"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Qosmetics/Qosmetics-Walls/", 
+    "https://ko-fi.com/redbrumbler", 
+    "https://patreon.com/Qosmetics", 
+    "https://www.paypal.me/redbrumblerofficial"
+  ], 
   "iscore": false, 
   "authors": [
     "RedBrumbler"

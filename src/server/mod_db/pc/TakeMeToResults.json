@@ -16,12 +16,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Loloppe/TakeMeToResults"
+  ], 
   "iscore": false, 
   "authors": [
     "Loloppe"
   ], 
   "desc_en": "A simple mod that adds a button which takes you to the results screen.", 
   "editpath": "src/server/mod_db/pc/TakeMeToResults.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 227
 }

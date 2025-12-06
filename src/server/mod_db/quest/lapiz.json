@@ -7,7 +7,11 @@
     "1.40.8_7379"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/raineaeternal/Lapiz/", 
+    "https://github.com/sponsors/raineio", 
+    "https://ko-fi.com/rainymods"
+  ], 
   "iscore": true, 
   "authors": [
     "Raine"

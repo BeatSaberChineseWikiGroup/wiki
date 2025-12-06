@@ -6,7 +6,9 @@
     "1.37.0_9064817954"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/bsq-ports/NoodleExtensions/"
+  ], 
   "iscore": false, 
   "authors": [
     "StackDoubleFlow"

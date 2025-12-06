@@ -6,7 +6,9 @@
     "1.37.0_9064817954"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Royston1999/Saber-Tailor-quest/"
+  ], 
   "iscore": false, 
   "authors": [
     "Polly51104"

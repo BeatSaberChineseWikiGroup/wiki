@@ -15,12 +15,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/AlexxSeven/BSAssetLib"
+  ], 
   "iscore": false, 
   "authors": [
     "AlexxSeven"
   ], 
   "desc_en": "A small beat saber mod for shader and asset creators, allowing use of the active player color scheme.", 
   "editpath": "src/server/mod_db/pc/BSAssetLib.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 345
 }

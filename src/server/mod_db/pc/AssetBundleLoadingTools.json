@@ -19,12 +19,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/nicoco007/AssetBundleLoadingTools"
+  ], 
   "iscore": false, 
   "authors": [
     "nicoco007"
   ], 
   "desc_en": "A library with various tools to help safely load AssetBundles and fix legacy shader issues.", 
   "editpath": "src/server/mod_db/pc/AssetBundleLoadingTools.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 306
 }

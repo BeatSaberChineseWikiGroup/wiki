@@ -67,12 +67,15 @@
     "1.9.0"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://scoresaber.com"
+  ], 
   "iscore": false, 
   "authors": [
     "BeatMods Import"
   ], 
   "desc_en": "Official C# Library to interact with the ScoreSaber API\n\nThis mod was imported from BeatMods, and was originally uploaded by Umbranox at 2019-12-21T23:28:16.462Z.", 
   "editpath": "src/server/mod_db/pc/ScoreSaberSharp.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 102
 }

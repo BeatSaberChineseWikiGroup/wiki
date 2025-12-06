@@ -25,12 +25,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743"
+  ], 
   "iscore": false, 
   "authors": [
     "nicoco007"
   ], 
   "desc_en": "Applies physics to character's bones or joints.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-19T21:27:22.065Z.", 
   "editpath": "src/server/mod_db/pc/Dynamic Bone.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 319
 }

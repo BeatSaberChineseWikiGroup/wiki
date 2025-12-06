@@ -21,12 +21,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Meivyn/HighlightBombs"
+  ], 
   "iscore": false, 
   "authors": [
     "Meivyn"
   ], 
   "desc_en": "Adds a slight outline to bombs to make them more visible in the dark.", 
   "editpath": "src/server/mod_db/pc/HighlightBombs.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 263
 }

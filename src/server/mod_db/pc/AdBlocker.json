@@ -27,12 +27,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/JonnyVR1/AdBlocker"
+  ], 
   "iscore": false, 
   "authors": [
     "BeatMods Import"
   ], 
   "desc_en": "This mod simply removes the promo tile from the main menu\n\nThis mod was imported from BeatMods, and was originally uploaded by JonnyXDA at 2022-04-08T13:10:06.119Z.", 
   "editpath": "src/server/mod_db/pc/AdBlocker.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 264
 }

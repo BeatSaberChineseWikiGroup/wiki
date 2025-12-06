@@ -11,12 +11,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/GalaxyMaster2/HitsoundTweaks"
+  ], 
   "iscore": false, 
   "authors": [
     "GalaxyMaster2"
   ], 
   "desc_en": "Adds more configurability to hitsounds, and fixes several base game bugs to make them more reliable and consistent.", 
   "editpath": "src/server/mod_db/pc/HitsoundTweaks.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 272
 }

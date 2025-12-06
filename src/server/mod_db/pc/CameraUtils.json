@@ -30,12 +30,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/Reezonate/CameraUtils"
+  ], 
   "iscore": false, 
   "authors": [
     "Reezonate"
   ], 
   "desc_en": "Library that standardizes the use of GameObject layers and provides tools for easier rendering pipeline modifications", 
   "editpath": "src/server/mod_db/pc/CameraUtils.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 265
 }

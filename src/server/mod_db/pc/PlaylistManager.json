@@ -17,12 +17,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/rithik-b/PlaylistManager"
+  ], 
   "iscore": false, 
   "authors": [
     "Meivyn"
   ], 
   "desc_en": "Load, create, edit and download songs of playlists in Beat Saber.", 
   "editpath": "src/server/mod_db/pc/PlaylistManager.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 170
 }

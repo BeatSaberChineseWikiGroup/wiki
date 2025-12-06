@@ -19,12 +19,15 @@
     "1.40.8"
   ], 
   "desc_zh": null, 
-  "extern_links": [], 
+  "extern_links": [
+    "https://github.com/BeatTogether/BeatTogether"
+  ], 
   "iscore": false, 
   "authors": [
     "Kevin Hammett"
   ], 
   "desc_en": "A multiplayer private server for the modding community with support for crossplay between PC and Quest.", 
   "editpath": "src/server/mod_db/pc/BeatTogether.json", 
-  "name_zh": null
+  "name_zh": null, 
+  "beatmods_id": 24
 }
