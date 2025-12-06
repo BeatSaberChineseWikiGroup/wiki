@@ -13,5 +13,6 @@
     "Metalit, darknight1050"
   ], 
   "desc_en": "Loads playlists and provides lots of functionality to other mods.", 
-  "editpath": "src/server/mod_db/quest/playlistcore.json"
+  "editpath": "src/server/mod_db/quest/playlistcore.json", 
+  "name_zh": null
 }

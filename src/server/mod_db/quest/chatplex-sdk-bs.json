@@ -13,5 +13,6 @@
     "HardCPP"
   ], 
   "desc_en": "ChatPlex BeatSaber modding SDK (Dependence for other mods)", 
-  "editpath": "src/server/mod_db/quest/chatplex-sdk-bs.json"
+  "editpath": "src/server/mod_db/quest/chatplex-sdk-bs.json", 
+  "name_zh": null
 }

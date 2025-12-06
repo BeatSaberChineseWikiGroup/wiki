@@ -22,5 +22,6 @@
     "qqrz997"
   ], 
   "desc_en": "Lets you change saber colours separately from the notes", 
-  "editpath": "src/server/mod_db/pc/CustomSaberColors.json"
+  "editpath": "src/server/mod_db/pc/CustomSaberColors.json", 
+  "name_zh": null
 }

@@ -21,5 +21,6 @@
     "Double Colon"
   ], 
   "desc_en": "Place images and gifs in your game and customize how they appear!", 
-  "editpath": "src/server/mod_db/pc/ImageFactory.json"
+  "editpath": "src/server/mod_db/pc/ImageFactory.json", 
+  "name_zh": null
 }

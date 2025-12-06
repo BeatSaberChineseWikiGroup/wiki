@@ -25,5 +25,6 @@
     "qqrz997"
   ], 
   "desc_en": "A tool that shows your average cut angle and offset per note position/angle to help perfect your accuracy.", 
-  "editpath": "src/server/mod_db/pc/SliceDetails.json"
+  "editpath": "src/server/mod_db/pc/SliceDetails.json", 
+  "name_zh": null
 }

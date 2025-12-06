@@ -13,5 +13,6 @@
     "RedBrumbler"
   ], 
   "desc_en": "Spawn a bigger base platform for people with vertigo so they can play comfortably, AntiVertigo v1.0.9", 
-  "editpath": "src/server/mod_db/quest/AntiVertigo.json"
+  "editpath": "src/server/mod_db/quest/AntiVertigo.json", 
+  "name_zh": null
 }

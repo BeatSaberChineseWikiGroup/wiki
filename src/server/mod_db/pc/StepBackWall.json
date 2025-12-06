@@ -21,5 +21,6 @@
     "Loloppe"
   ], 
   "desc_en": "Adds an option to re-enable the glorious \"Step Back\" walls again", 
-  "editpath": "src/server/mod_db/pc/StepBackWall.json"
+  "editpath": "src/server/mod_db/pc/StepBackWall.json", 
+  "name_zh": null
 }

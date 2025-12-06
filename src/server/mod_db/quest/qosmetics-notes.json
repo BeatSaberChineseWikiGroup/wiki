@@ -12,5 +12,6 @@
     "RedBrumbler"
   ], 
   "desc_en": "Qosmetics module that adds Cyoob capabilities", 
-  "editpath": "src/server/mod_db/quest/qosmetics-notes.json"
+  "editpath": "src/server/mod_db/quest/qosmetics-notes.json", 
+  "name_zh": null
 }

@@ -13,5 +13,6 @@
     "Raine"
   ], 
   "desc_en": "Lapiz makes modders' lives easier by exposing utilities to them cleanly. This mod does nothing on its own.", 
-  "editpath": "src/server/mod_db/quest/lapiz.json"
+  "editpath": "src/server/mod_db/quest/lapiz.json", 
+  "name_zh": null
 }

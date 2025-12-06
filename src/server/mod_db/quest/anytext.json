@@ -13,5 +13,6 @@
     "CatsaCode"
   ], 
   "desc_en": "Change any text in the game", 
-  "editpath": "src/server/mod_db/quest/anytext.json"
+  "editpath": "src/server/mod_db/quest/anytext.json", 
+  "name_zh": null
 }

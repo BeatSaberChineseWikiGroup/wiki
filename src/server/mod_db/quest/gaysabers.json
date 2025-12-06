@@ -12,5 +12,6 @@
     "jxnxsdev"
   ], 
   "desc_en": "Makes your sabers gay (i mean glow in rainbow colors)", 
-  "editpath": "src/server/mod_db/quest/gaysabers.json"
+  "editpath": "src/server/mod_db/quest/gaysabers.json", 
+  "name_zh": null
 }

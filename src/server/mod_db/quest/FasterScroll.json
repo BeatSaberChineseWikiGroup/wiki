@@ -13,5 +13,6 @@
     "Christoffyw"
   ], 
   "desc_en": "Find your song faster with this mod.", 
-  "editpath": "src/server/mod_db/quest/FasterScroll.json"
+  "editpath": "src/server/mod_db/quest/FasterScroll.json", 
+  "name_zh": null
 }

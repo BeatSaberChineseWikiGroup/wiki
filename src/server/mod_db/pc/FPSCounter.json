@@ -25,5 +25,6 @@
     "Loloppe"
   ], 
   "desc_en": "A Beat Saber mod to show your fps in-game", 
-  "editpath": "src/server/mod_db/pc/FPSCounter.json"
+  "editpath": "src/server/mod_db/pc/FPSCounter.json", 
+  "name_zh": null
 }

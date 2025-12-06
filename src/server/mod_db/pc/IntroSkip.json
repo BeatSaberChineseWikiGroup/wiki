@@ -25,5 +25,6 @@
     "Loloppe"
   ], 
   "desc_en": "Allows you to skip intros and outros of songs that are longer than 5 seconds without any significant objects.", 
-  "editpath": "src/server/mod_db/pc/IntroSkip.json"
+  "editpath": "src/server/mod_db/pc/IntroSkip.json", 
+  "name_zh": null
 }

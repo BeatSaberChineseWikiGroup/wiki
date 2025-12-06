@@ -20,5 +20,6 @@
     "Kinsi"
   ], 
   "desc_en": "Adds a lot of options / tools for creating more advanced desktop viewing experiences with multiple camera angles and much more. See the Github link for more details", 
-  "editpath": "src/server/mod_db/pc/Camera2.json"
+  "editpath": "src/server/mod_db/pc/Camera2.json", 
+  "name_zh": null
 }

@@ -12,5 +12,6 @@
     "Fernthedev"
   ], 
   "desc_en": "Paperlog Bootstrapper for Scotland2 modloader", 
-  "editpath": "src/server/mod_db/quest/paper2_scotland2.json"
+  "editpath": "src/server/mod_db/quest/paper2_scotland2.json", 
+  "name_zh": null
 }

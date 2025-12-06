@@ -2,9 +2,7 @@
 
 # ScoreSaber排行榜
 
-<模组大卡 name="BeatLeader" />
-
-BeatLeader是一个社区排行榜模组。
+ScoreSaber是一个社区排行榜模组。
 
 <提示 内容="截至2025年12月1日，该模组在Quest版本仅支持1.37.0、1.28.0、1.27.0三个版本。"/>
 

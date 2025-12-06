@@ -20,5 +20,6 @@
     "qqrz997"
   ], 
   "desc_en": "Adds support for custom notes in beat saber", 
-  "editpath": "src/server/mod_db/pc/CustomNotes.json"
+  "editpath": "src/server/mod_db/pc/CustomNotes.json", 
+  "name_zh": null
 }

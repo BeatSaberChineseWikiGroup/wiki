@@ -13,5 +13,6 @@
     "BeatTogether Team"
   ], 
   "desc_en": "A multiplayer private server for the modding community. Supports crossplay between PC and Quest.", 
-  "editpath": "src/server/mod_db/quest/BeatTogether.json"
+  "editpath": "src/server/mod_db/quest/BeatTogether.json", 
+  "name_zh": null
 }

@@ -13,5 +13,6 @@
     "FrozenAlex, Futuremappermydud"
   ], 
   "desc_en": "Mod to unlock pc graphics settings on quest beat saber", 
-  "editpath": "src/server/mod_db/quest/graphicstweaks.json"
+  "editpath": "src/server/mod_db/quest/graphicstweaks.json", 
+  "name_zh": null
 }

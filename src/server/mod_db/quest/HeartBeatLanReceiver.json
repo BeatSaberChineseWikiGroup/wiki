@@ -13,5 +13,6 @@
     "frto027"
   ], 
   "desc_en": "This mod displays and records your heart rate in the quest game. Supports multiple data sources including Bluetooth, HypeRate, Pulsoid and OSC. Bluetooth permition patch required if you use it.", 
-  "editpath": "src/server/mod_db/quest/HeartBeatLanReceiver.json"
+  "editpath": "src/server/mod_db/quest/HeartBeatLanReceiver.json", 
+  "name_zh": null
 }

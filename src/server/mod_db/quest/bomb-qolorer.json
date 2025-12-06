@@ -13,5 +13,6 @@
     "TheZipCreator"
   ], 
   "desc_en": "Allows you to override the default bomb color", 
-  "editpath": "src/server/mod_db/quest/bomb-qolorer.json"
+  "editpath": "src/server/mod_db/quest/bomb-qolorer.json", 
+  "name_zh": null
 }

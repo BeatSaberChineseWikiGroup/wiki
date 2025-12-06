@@ -13,5 +13,6 @@
     "Metalit"
   ], 
   "desc_en": "Download playlists from websites directly in game", 
-  "editpath": "src/server/mod_db/quest/playlistdownloader.json"
+  "editpath": "src/server/mod_db/quest/playlistdownloader.json", 
+  "name_zh": null
 }

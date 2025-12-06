@@ -12,5 +12,6 @@
     "jxnxsdev"
   ], 
   "desc_en": "Customise the Beat Saber menu", 
-  "editpath": "src/server/mod_db/quest/qustommenu.json"
+  "editpath": "src/server/mod_db/quest/qustommenu.json", 
+  "name_zh": null
 }

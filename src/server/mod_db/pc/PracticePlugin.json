@@ -16,5 +16,6 @@
     "denpadokei"
   ], 
   "desc_en": "Plugin for Beat Saber to control playback speed, seek through songs and set up looping sections.", 
-  "editpath": "src/server/mod_db/pc/PracticePlugin.json"
+  "editpath": "src/server/mod_db/pc/PracticePlugin.json", 
+  "name_zh": null
 }

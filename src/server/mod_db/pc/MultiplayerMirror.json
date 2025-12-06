@@ -23,5 +23,6 @@
     "Roy de Jong"
   ], 
   "desc_en": "See your own avatar in multiplayer lobbies and games. Lobby mirror, in-game #1 hologram mirror, avatar editor mirror.", 
-  "editpath": "src/server/mod_db/pc/MultiplayerMirror.json"
+  "editpath": "src/server/mod_db/pc/MultiplayerMirror.json", 
+  "name_zh": null
 }

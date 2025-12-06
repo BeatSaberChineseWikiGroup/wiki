@@ -17,5 +17,6 @@
     "qqrz997"
   ], 
   "desc_en": "Allows for your menu pointers to be the same color as your in-game sabers!", 
-  "editpath": "src/server/mod_db/pc/MenuSaberColors.json"
+  "editpath": "src/server/mod_db/pc/MenuSaberColors.json", 
+  "name_zh": null
 }

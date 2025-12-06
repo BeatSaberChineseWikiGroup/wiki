@@ -13,5 +13,6 @@
     "Metalit"
   ], 
   "desc_en": "Manage all your songs and playlists!", 
-  "editpath": "src/server/mod_db/quest/playlistmanager.json"
+  "editpath": "src/server/mod_db/quest/playlistmanager.json", 
+  "name_zh": null
 }

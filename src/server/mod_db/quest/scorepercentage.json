@@ -13,5 +13,6 @@
     "Polly51104"
   ], 
   "desc_en": "shows extra information after completing a level", 
-  "editpath": "src/server/mod_db/quest/scorepercentage.json"
+  "editpath": "src/server/mod_db/quest/scorepercentage.json", 
+  "name_zh": null
 }

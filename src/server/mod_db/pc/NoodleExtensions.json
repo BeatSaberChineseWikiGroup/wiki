@@ -17,5 +17,6 @@
     "Aeroluna"
   ], 
   "desc_en": "A spiritual successor to Mapping Extensions, this allows mappers to precisely control aspects of map elements. Does not allow you to play Mapping Extensions maps!\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-04-21T20:03:06.408Z.", 
-  "editpath": "src/server/mod_db/pc/NoodleExtensions.json"
+  "editpath": "src/server/mod_db/pc/NoodleExtensions.json", 
+  "name_zh": null
 }

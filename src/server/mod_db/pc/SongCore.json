@@ -19,5 +19,6 @@
     "Meivyn"
   ], 
   "desc_en": "A plugin for handling custom songs in Beat Saber.", 
-  "editpath": "src/server/mod_db/pc/SongCore.json"
+  "editpath": "src/server/mod_db/pc/SongCore.json", 
+  "name_zh": null
 }

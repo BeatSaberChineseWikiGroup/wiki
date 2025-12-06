@@ -25,5 +25,6 @@
     "qqrz997"
   ], 
   "desc_en": "A plugin for custom walls in Beat Saber", 
-  "editpath": "src/server/mod_db/pc/CustomWalls.json"
+  "editpath": "src/server/mod_db/pc/CustomWalls.json", 
+  "name_zh": null
 }

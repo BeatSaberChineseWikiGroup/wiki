@@ -13,5 +13,6 @@
     "KodenameKRAK, Eris"
   ], 
   "desc_en": null, 
-  "editpath": "src/server/mod_db/quest/songchartvisualizer.json"
+  "editpath": "src/server/mod_db/quest/songchartvisualizer.json", 
+  "name_zh": null
 }

@@ -21,5 +21,6 @@
     "Umbranox"
   ], 
   "desc_en": "Beat Saber's largest leaderboard system for custom songs. Earn PP from ranked maps, compare scores with others and watch replays.", 
-  "editpath": "src/server/mod_db/pc/ScoreSaber.json"
+  "editpath": "src/server/mod_db/pc/ScoreSaber.json", 
+  "name_zh": null
 }

@@ -13,5 +13,6 @@
     "Reezonate"
   ], 
   "desc_en": "Modding library that standardizes the use of GameObject layers and provides tools for easier rendering pipeline modifications", 
-  "editpath": "src/server/mod_db/quest/camera-utils.json"
+  "editpath": "src/server/mod_db/quest/camera-utils.json", 
+  "name_zh": null
 }

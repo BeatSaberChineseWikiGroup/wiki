@@ -20,5 +20,6 @@
     "TheBlackParrot"
   ], 
   "desc_en": "Changes the amount of LevitatingNote that are present in the menu environment.\r\n\r\nSettings for the mod are located in the Mod Settings menu within the normal Settings menu.", 
-  "editpath": "src/server/mod_db/pc/MenuFloaters.json"
+  "editpath": "src/server/mod_db/pc/MenuFloaters.json", 
+  "name_zh": null
 }

@@ -20,5 +20,6 @@
     "Reezonate"
   ], 
   "desc_en": "Intuitive controller offset adjustment tool. Includes swing benchmark for config and grip analysis. Not compatible with SaberTailor", 
-  "editpath": "src/server/mod_db/pc/EasyOffset.json"
+  "editpath": "src/server/mod_db/pc/EasyOffset.json", 
+  "name_zh": null
 }

@@ -23,5 +23,6 @@
     "Double Colon"
   ], 
   "desc_en": "A similar mod to HttpStatus with some extra features such as BSR code and player health", 
-  "editpath": "src/server/mod_db/pc/DataPuller.json"
+  "editpath": "src/server/mod_db/pc/DataPuller.json", 
+  "name_zh": null
 }

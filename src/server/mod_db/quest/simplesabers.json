@@ -12,5 +12,6 @@
     "Metalit"
   ], 
   "desc_en": "Tweak the default saber and trail", 
-  "editpath": "src/server/mod_db/quest/simplesabers.json"
+  "editpath": "src/server/mod_db/quest/simplesabers.json", 
+  "name_zh": null
 }

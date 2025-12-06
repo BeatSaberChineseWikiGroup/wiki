@@ -21,5 +21,6 @@
     "NuggoDEV"
   ], 
   "desc_en": "Displays an in-game chart with song difficulty information!", 
-  "editpath": "src/server/mod_db/pc/SongChartVisualizer.json"
+  "editpath": "src/server/mod_db/pc/SongChartVisualizer.json", 
+  "name_zh": null
 }

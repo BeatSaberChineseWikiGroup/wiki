@@ -13,5 +13,6 @@
     "Kaitlyn, Kinsi55"
   ], 
   "desc_en": "Smoothes your Controller position while in menus to make it less shaky, making the UI easier to use, etc.", 
-  "editpath": "src/server/mod_db/quest/smoothedcontroller.json"
+  "editpath": "src/server/mod_db/quest/smoothedcontroller.json", 
+  "name_zh": null
 }

@@ -23,5 +23,6 @@
     "Kevga"
   ], 
   "desc_en": "A youtube-dl fork with additional features and fixes", 
-  "editpath": "src/server/mod_db/pc/yt-dlp.json"
+  "editpath": "src/server/mod_db/pc/yt-dlp.json", 
+  "name_zh": null
 }

@@ -12,5 +12,6 @@
     "RedBrumbler"
   ], 
   "desc_en": "Qosmetics module that adds Whacker capabilities", 
-  "editpath": "src/server/mod_db/quest/qosmetics-sabers.json"
+  "editpath": "src/server/mod_db/quest/qosmetics-sabers.json", 
+  "name_zh": null
 }

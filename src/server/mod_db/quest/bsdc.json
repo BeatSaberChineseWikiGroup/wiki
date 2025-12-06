@@ -12,5 +12,6 @@
     "Lauriethefish#6700, lxtend"
   ], 
   "desc_en": "Allows discord rich presence to see which song you're playing, the current time, and much more.", 
-  "editpath": "src/server/mod_db/quest/bsdc.json"
+  "editpath": "src/server/mod_db/quest/bsdc.json", 
+  "name_zh": null
 }

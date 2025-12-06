@@ -21,5 +21,6 @@
     "Loloppe"
   ], 
   "desc_en": "A Beat Saber mod that allows you to draw in the scene", 
-  "editpath": "src/server/mod_db/pc/Scribble.json"
+  "editpath": "src/server/mod_db/pc/Scribble.json", 
+  "name_zh": null
 }

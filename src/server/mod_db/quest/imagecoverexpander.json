@@ -13,5 +13,6 @@
     "laynia"
   ], 
   "desc_en": "Expands the song artwork to cover the right side of the level select.", 
-  "editpath": "src/server/mod_db/quest/imagecoverexpander.json"
+  "editpath": "src/server/mod_db/quest/imagecoverexpander.json", 
+  "name_zh": null
 }

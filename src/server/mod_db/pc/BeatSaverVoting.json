@@ -23,5 +23,6 @@
     "Thomas Cheyney"
   ], 
   "desc_en": "A plugin for up/downvoting songs on BeatSaver", 
-  "editpath": "src/server/mod_db/pc/BeatSaverVoting.json"
+  "editpath": "src/server/mod_db/pc/BeatSaverVoting.json", 
+  "name_zh": null
 }

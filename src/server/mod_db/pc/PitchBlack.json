@@ -21,5 +21,6 @@
     "Loloppe"
   ], 
   "desc_en": "Simple plugin that can completely disable Lights (Events) and Spectrogram (if the environment has one).\n\nThis mod was imported from BeatMods, and was originally uploaded by Loloppe at 2024-12-01T19:17:47.531Z.", 
-  "editpath": "src/server/mod_db/pc/PitchBlack.json"
+  "editpath": "src/server/mod_db/pc/PitchBlack.json", 
+  "name_zh": null
 }

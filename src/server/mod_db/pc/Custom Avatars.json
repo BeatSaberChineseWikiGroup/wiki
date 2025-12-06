@@ -20,5 +20,6 @@
     "nicoco007"
   ], 
   "desc_en": "Allows the use of custom player avatars for in-game body presence.", 
-  "editpath": "src/server/mod_db/pc/Custom Avatars.json"
+  "editpath": "src/server/mod_db/pc/Custom Avatars.json", 
+  "name_zh": null
 }

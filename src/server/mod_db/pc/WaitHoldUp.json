@@ -23,5 +23,6 @@
     "TheBlackParrot"
   ], 
   "desc_en": "Brings up the pause menu when loading into a map", 
-  "editpath": "src/server/mod_db/pc/WaitHoldUp.json"
+  "editpath": "src/server/mod_db/pc/WaitHoldUp.json", 
+  "name_zh": null
 }

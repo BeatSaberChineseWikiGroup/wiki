@@ -50,5 +50,6 @@
     "Aeroluna"
   ], 
   "desc_en": "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beatmods sucks.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-11-30T01:53:15.808Z.", 
-  "editpath": "src/server/mod_db/pc/LookupID.json"
+  "editpath": "src/server/mod_db/pc/LookupID.json", 
+  "name_zh": null
 }

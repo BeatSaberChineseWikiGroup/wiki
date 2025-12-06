@@ -20,5 +20,6 @@
     "Meivyn"
   ], 
   "desc_en": "This adds a host of new things you can do with your maps as a mapper, view More Info for details.", 
-  "editpath": "src/server/mod_db/pc/MappingExtensions.json"
+  "editpath": "src/server/mod_db/pc/MappingExtensions.json", 
+  "name_zh": null
 }

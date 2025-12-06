@@ -13,5 +13,6 @@
     "Sc2ad"
   ], 
   "desc_en": "Core mod required for other mods to function!", 
-  "editpath": "src/server/mod_db/quest/custom-types.json"
+  "editpath": "src/server/mod_db/quest/custom-types.json", 
+  "name_zh": null
 }

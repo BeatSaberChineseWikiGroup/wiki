@@ -20,5 +20,6 @@
     "qe201020335"
   ], 
   "desc_en": "# SongRankedBadge \n\nShows a map's rank status using the promotion badge\n\nSupports both SS and BL ranking\n\n![Imgur](https://i.imgur.com/gqYvPkF.png)", 
-  "editpath": "src/server/mod_db/pc/SongRankedBadge.json"
+  "editpath": "src/server/mod_db/pc/SongRankedBadge.json", 
+  "name_zh": null
 }

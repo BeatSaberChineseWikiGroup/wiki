@@ -25,5 +25,6 @@
     "qqrz997"
   ], 
   "desc_en": "Download and manage models from a convenient menu from within the game.", 
-  "editpath": "src/server/mod_db/pc/ModelMenu.json"
+  "editpath": "src/server/mod_db/pc/ModelMenu.json", 
+  "name_zh": null
 }

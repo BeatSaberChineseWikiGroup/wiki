@@ -26,5 +26,6 @@
     "nicoco007"
   ], 
   "desc_en": "Fix note/bomb/wall stuttering caused by AudioTimeSyncController.", 
-  "editpath": "src/server/mod_db/pc/TimeSyncStutterFix.json"
+  "editpath": "src/server/mod_db/pc/TimeSyncStutterFix.json", 
+  "name_zh": null
 }

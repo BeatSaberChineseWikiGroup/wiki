@@ -32,5 +32,6 @@
     "BeatMods Import"
   ], 
   "desc_en": "The extremely fast MessagePack serializer for C#.\n\nThis mod was imported from BeatMods, and was originally uploaded by Meivyn at 2024-03-22T06:52:30.398Z.", 
-  "editpath": "src/server/mod_db/pc/MessagePack.json"
+  "editpath": "src/server/mod_db/pc/MessagePack.json", 
+  "name_zh": null
 }

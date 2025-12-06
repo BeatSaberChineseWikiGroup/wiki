@@ -25,5 +25,6 @@
     "qqrz997"
   ], 
   "desc_en": "A mod for performing tricks like spinning and throwing your sabers", 
-  "editpath": "src/server/mod_db/pc/TrickSaber.json"
+  "editpath": "src/server/mod_db/pc/TrickSaber.json", 
+  "name_zh": null
 }

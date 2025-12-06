@@ -12,5 +12,6 @@
     "RedBrumbler"
   ], 
   "desc_en": "Qosmetics module that adds Box capabilities", 
-  "editpath": "src/server/mod_db/quest/qosmetics-walls.json"
+  "editpath": "src/server/mod_db/quest/qosmetics-walls.json", 
+  "name_zh": null
 }

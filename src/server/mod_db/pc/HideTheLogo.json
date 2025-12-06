@@ -24,5 +24,6 @@
     "TheBlackParrot"
   ], 
   "desc_en": "Hides the Beat Saber logo in the menu environments", 
-  "editpath": "src/server/mod_db/pc/HideTheLogo.json"
+  "editpath": "src/server/mod_db/pc/HideTheLogo.json", 
+  "name_zh": null
 }

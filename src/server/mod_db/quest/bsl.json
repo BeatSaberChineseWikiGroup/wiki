@@ -12,5 +12,6 @@
     "RedBrumbler, Pink, Kinsi55"
   ], 
   "desc_en": "Improvement upon SongBrowser with similiar functionality", 
-  "editpath": "src/server/mod_db/quest/bsl.json"
+  "editpath": "src/server/mod_db/quest/bsl.json", 
+  "name_zh": null
 }

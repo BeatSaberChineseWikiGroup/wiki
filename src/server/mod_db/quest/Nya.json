@@ -13,5 +13,6 @@
     "FrozenAlex"
   ], 
   "desc_en": "Beat Saber mod for displaying nya-tastic images from various anime themed web APIs!", 
-  "editpath": "src/server/mod_db/quest/Nya.json"
+  "editpath": "src/server/mod_db/quest/Nya.json", 
+  "name_zh": null
 }

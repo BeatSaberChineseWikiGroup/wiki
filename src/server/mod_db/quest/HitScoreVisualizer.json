@@ -13,5 +13,6 @@
     "Christoffyw, Metalit"
   ], 
   "desc_en": "Changes the scores that pop up when you hit notes", 
-  "editpath": "src/server/mod_db/quest/HitScoreVisualizer.json"
+  "editpath": "src/server/mod_db/quest/HitScoreVisualizer.json", 
+  "name_zh": null
 }

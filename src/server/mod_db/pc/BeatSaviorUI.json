@@ -17,5 +17,6 @@
     "qqrz997"
   ], 
   "desc_en": "Adds a score graph and various statistics to the level results screen.", 
-  "editpath": "src/server/mod_db/pc/BeatSaviorUI.json"
+  "editpath": "src/server/mod_db/pc/BeatSaviorUI.json", 
+  "name_zh": null
 }

@@ -21,5 +21,6 @@
     "Thomas Cheyney"
   ], 
   "desc_en": "Enables you to download songs from BeatSaver in-game.", 
-  "editpath": "src/server/mod_db/pc/BeatSaverDownloader.json"
+  "editpath": "src/server/mod_db/pc/BeatSaverDownloader.json", 
+  "name_zh": null
 }

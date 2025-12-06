@@ -14,5 +14,6 @@
     "laynia & ComputerElite & kodenamekrak"
   ], 
   "desc_en": "Changes the color of the health bar according to your health", 
-  "editpath": "src/server/mod_db/quest/redbar.json"
+  "editpath": "src/server/mod_db/quest/redbar.json", 
+  "name_zh": null
 }

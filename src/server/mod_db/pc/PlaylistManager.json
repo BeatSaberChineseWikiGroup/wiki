@@ -23,5 +23,6 @@
     "Meivyn"
   ], 
   "desc_en": "Load, create, edit and download songs of playlists in Beat Saber.", 
-  "editpath": "src/server/mod_db/pc/PlaylistManager.json"
+  "editpath": "src/server/mod_db/pc/PlaylistManager.json", 
+  "name_zh": null
 }

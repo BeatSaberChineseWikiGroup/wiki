@@ -39,7 +39,8 @@ class BufferedMod:
                 'desc_zh':None,
                 'extern_links':[],
                 'iscore':False,
-                'authors':[]
+                'authors':[],
+                'name_zh':None
             }
         self.authors = set()
         self.versions = set()
@@ -102,6 +103,7 @@ for version in VERSIONS_PC:
             buffered_page.json["platform"] = "pc"
             buffered_page.json["iscore"] = _mod["category"] == "core"
             buffered_page.json["editpath"] = page_name
+            
         for author in _mod["authors"]:
             buffered_page.authors.add(author['displayName'])
         for ver in _latest["supportedGameVersions"]:

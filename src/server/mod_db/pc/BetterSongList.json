@@ -20,5 +20,6 @@
     "Kinsi"
   ], 
   "desc_en": "Adds Various improvements to the Basegame song list like Filters, a persisted state and much more", 
-  "editpath": "src/server/mod_db/pc/BetterSongList.json"
+  "editpath": "src/server/mod_db/pc/BetterSongList.json", 
+  "name_zh": null
 }

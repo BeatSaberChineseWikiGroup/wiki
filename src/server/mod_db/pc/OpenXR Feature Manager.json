@@ -28,5 +28,6 @@
     "nicoco007"
   ], 
   "desc_en": "Manages adding OpenXR features at runtime.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:43:26.686Z.", 
-  "editpath": "src/server/mod_db/pc/OpenXR Feature Manager.json"
+  "editpath": "src/server/mod_db/pc/OpenXR Feature Manager.json", 
+  "name_zh": null
 }

@@ -13,5 +13,6 @@
     "Tatenshi"
   ], 
   "desc_en": "Adds a button, that picks a random song out of the current list", 
-  "editpath": "src/server/mod_db/quest/RandomSongPicker.json"
+  "editpath": "src/server/mod_db/quest/RandomSongPicker.json", 
+  "name_zh": null
 }

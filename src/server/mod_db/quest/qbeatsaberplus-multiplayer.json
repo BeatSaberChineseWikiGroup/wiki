@@ -12,5 +12,6 @@
     "HardCPP#1985"
   ], 
   "desc_en": "Feel good!", 
-  "editpath": "src/server/mod_db/quest/qbeatsaberplus-multiplayer.json"
+  "editpath": "src/server/mod_db/quest/qbeatsaberplus-multiplayer.json", 
+  "name_zh": null
 }

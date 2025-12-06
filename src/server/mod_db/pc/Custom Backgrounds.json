@@ -21,5 +21,6 @@
     "Redageddon"
   ], 
   "desc_en": "Allows you to add equirectangular images as backgrounds", 
-  "editpath": "src/server/mod_db/pc/Custom Backgrounds.json"
+  "editpath": "src/server/mod_db/pc/Custom Backgrounds.json", 
+  "name_zh": null
 }

@@ -12,5 +12,6 @@
     "GalaxyMaster2 (ported by NSGolova using Gemini 2.5)"
   ], 
   "desc_en": "Mod that adds more configurability to hitsounds, and fixes several base game bugs", 
-  "editpath": "src/server/mod_db/quest/HitsoundTweaqs.json"
+  "editpath": "src/server/mod_db/quest/HitsoundTweaqs.json", 
+  "name_zh": null
 }

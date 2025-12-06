@@ -12,5 +12,6 @@
     "TheZipCreator"
   ], 
   "desc_en": "Allows you to play endlessly, or at least until you fail.", 
-  "editpath": "src/server/mod_db/quest/endless.json"
+  "editpath": "src/server/mod_db/quest/endless.json", 
+  "name_zh": null
 }

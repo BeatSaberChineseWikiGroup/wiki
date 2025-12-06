@@ -13,5 +13,6 @@
     "CatsaCode"
   ], 
   "desc_en": "Don't think there's enough fireworks? This mod adds a variety of settings that can make fireworks powerful enough to explode the game itself!", 
-  "editpath": "src/server/mod_db/quest/too-many-fireworks.json"
+  "editpath": "src/server/mod_db/quest/too-many-fireworks.json", 
+  "name_zh": null
 }

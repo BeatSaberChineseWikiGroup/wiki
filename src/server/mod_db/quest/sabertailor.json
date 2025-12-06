@@ -12,5 +12,6 @@
     "Polly51104"
   ], 
   "desc_en": "Edit controller settings for each saber independently. Also includes Kinsi's Controller Settings Helper mod", 
-  "editpath": "src/server/mod_db/quest/sabertailor.json"
+  "editpath": "src/server/mod_db/quest/sabertailor.json", 
+  "name_zh": null
 }

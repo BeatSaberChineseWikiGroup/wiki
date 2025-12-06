@@ -23,5 +23,6 @@
     "whatdahopper"
   ], 
   "desc_en": "Ever wanted your environment spectrograms to look more epic? This Beat Saber plugin allows you to adjust the sensitivity of them.", 
-  "editpath": "src/server/mod_db/pc/Overly Sensitive Spectrograms.json"
+  "editpath": "src/server/mod_db/pc/Overly Sensitive Spectrograms.json", 
+  "name_zh": null
 }

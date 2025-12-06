@@ -12,5 +12,6 @@
     "StackDoubleFlow, Fernthedev"
   ], 
   "desc_en": "Funny maps go brrr", 
-  "editpath": "src/server/mod_db/quest/custom-json-data.json"
+  "editpath": "src/server/mod_db/quest/custom-json-data.json", 
+  "name_zh": null
 }

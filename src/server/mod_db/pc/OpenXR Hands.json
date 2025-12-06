@@ -30,5 +30,6 @@
     "nicoco007"
   ], 
   "desc_en": "Adds hand/finger tracking support for OpenXR.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:44:44.113Z.", 
-  "editpath": "src/server/mod_db/pc/OpenXR Hands.json"
+  "editpath": "src/server/mod_db/pc/OpenXR Hands.json", 
+  "name_zh": null
 }

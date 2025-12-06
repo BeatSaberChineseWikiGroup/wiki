@@ -12,5 +12,6 @@
     "Tycho Bellers"
   ], 
   "desc_en": "Access your Spotify playlists and quickly search for matching custom maps!", 
-  "editpath": "src/server/mod_db/quest/spotify-search.json"
+  "editpath": "src/server/mod_db/quest/spotify-search.json", 
+  "name_zh": null
 }

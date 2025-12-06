@@ -40,5 +40,6 @@
     "BeatMods Import"
   ], 
   "desc_en": "Provides classes that support the compression and decompression of streams using file system paths.\n\nThis mod was imported from BeatMods, and was originally uploaded by Bobbie at 2023-05-11T21:34:39.731Z.", 
-  "editpath": "src/server/mod_db/pc/System.IO.Compression.FileSystem.json"
+  "editpath": "src/server/mod_db/pc/System.IO.Compression.FileSystem.json", 
+  "name_zh": null
 }

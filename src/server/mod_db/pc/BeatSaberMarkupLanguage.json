@@ -20,5 +20,6 @@
     "nicoco007"
   ], 
   "desc_en": "An XML based UI system.", 
-  "editpath": "src/server/mod_db/pc/BeatSaberMarkupLanguage.json"
+  "editpath": "src/server/mod_db/pc/BeatSaberMarkupLanguage.json", 
+  "name_zh": null
 }

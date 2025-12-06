@@ -21,5 +21,6 @@
     "AlexxSeven"
   ], 
   "desc_en": "A small beat saber mod for shader and asset creators, allowing use of the active player color scheme.", 
-  "editpath": "src/server/mod_db/pc/BSAssetLib.json"
+  "editpath": "src/server/mod_db/pc/BSAssetLib.json", 
+  "name_zh": null
 }

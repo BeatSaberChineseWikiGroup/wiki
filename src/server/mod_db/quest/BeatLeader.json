@@ -13,5 +13,6 @@
     "NSGolova"
   ], 
   "desc_en": "beatleader.com | In-game leaderboards for custom and OST maps | Score replays | Clans, events, playlists and much more", 
-  "editpath": "src/server/mod_db/quest/BeatLeader.json"
+  "editpath": "src/server/mod_db/quest/BeatLeader.json", 
+  "name_zh": null
 }

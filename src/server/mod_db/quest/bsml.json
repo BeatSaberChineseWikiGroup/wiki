@@ -13,5 +13,6 @@
     "RedBrumbler"
   ], 
   "desc_en": "Library that parses BeatSaber Markup Language to create UI elements", 
-  "editpath": "src/server/mod_db/quest/bsml.json"
+  "editpath": "src/server/mod_db/quest/bsml.json", 
+  "name_zh": null
 }

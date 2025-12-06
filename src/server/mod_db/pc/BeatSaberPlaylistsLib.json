@@ -23,5 +23,6 @@
     "Meivyn"
   ], 
   "desc_en": "A library to centralize management of playlists.", 
-  "editpath": "src/server/mod_db/pc/BeatSaberPlaylistsLib.json"
+  "editpath": "src/server/mod_db/pc/BeatSaberPlaylistsLib.json", 
+  "name_zh": null
 }

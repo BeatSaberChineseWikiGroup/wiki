@@ -13,5 +13,6 @@
     "Metalit"
   ], 
   "desc_en": "Configure your Jump Distance, Speed, and more with ultra precision!", 
-  "editpath": "src/server/mod_db/quest/jdfixer.json"
+  "editpath": "src/server/mod_db/quest/jdfixer.json", 
+  "name_zh": null
 }

@@ -25,5 +25,6 @@
     "qqrz997"
   ], 
   "desc_en": "A mod that adds pillows into the main menu", 
-  "editpath": "src/server/mod_db/pc/CustomPillows.json"
+  "editpath": "src/server/mod_db/pc/CustomPillows.json", 
+  "name_zh": null
 }

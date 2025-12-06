@@ -17,5 +17,6 @@
     "GalaxyMaster2"
   ], 
   "desc_en": "Adds more configurability to hitsounds, and fixes several base game bugs to make them more reliable and consistent.", 
-  "editpath": "src/server/mod_db/pc/HitsoundTweaks.json"
+  "editpath": "src/server/mod_db/pc/HitsoundTweaks.json", 
+  "name_zh": null
 }

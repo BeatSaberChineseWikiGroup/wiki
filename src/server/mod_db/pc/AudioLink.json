@@ -29,5 +29,6 @@
     "Aeroluna"
   ], 
   "desc_en": "VRC AudioLink ported to Beat Saber.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2022-09-13T15:34:47.580Z.", 
-  "editpath": "src/server/mod_db/pc/AudioLink.json"
+  "editpath": "src/server/mod_db/pc/AudioLink.json", 
+  "name_zh": null
 }

@@ -62,5 +62,6 @@
     "BeatMods Import"
   ], 
   "desc_en": "A C# implementation of the WebSocket protocol client and server\n\nThis mod was imported from BeatMods, and was originally uploaded by Eris at 2020-11-30T00:21:30.892Z.", 
-  "editpath": "src/server/mod_db/pc/websocket-sharp.json"
+  "editpath": "src/server/mod_db/pc/websocket-sharp.json", 
+  "name_zh": null
 }

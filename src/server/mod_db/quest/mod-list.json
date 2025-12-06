@@ -13,5 +13,6 @@
     "Lauriethefish"
   ], 
   "desc_en": "Displays your installed mods inside the game and gives you a warning prompt upon starting the game to tell you if a mod failed to load.", 
-  "editpath": "src/server/mod_db/quest/mod-list.json"
+  "editpath": "src/server/mod_db/quest/mod-list.json", 
+  "name_zh": null
 }

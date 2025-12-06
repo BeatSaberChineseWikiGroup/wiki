@@ -30,5 +30,6 @@
     "nicoco007"
   ], 
   "desc_en": "Adds profiles to OpenXR to support more devices such as Vive Trackers.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:45:39.185Z.", 
-  "editpath": "src/server/mod_db/pc/OpenXR Tracker Profiles.json"
+  "editpath": "src/server/mod_db/pc/OpenXR Tracker Profiles.json", 
+  "name_zh": null
 }

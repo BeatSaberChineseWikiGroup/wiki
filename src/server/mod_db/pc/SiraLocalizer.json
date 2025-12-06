@@ -20,5 +20,6 @@
     "nicoco007"
   ], 
   "desc_en": "Adds community translations for both base game content and supported mods.", 
-  "editpath": "src/server/mod_db/pc/SiraLocalizer.json"
+  "editpath": "src/server/mod_db/pc/SiraLocalizer.json", 
+  "name_zh": null
 }

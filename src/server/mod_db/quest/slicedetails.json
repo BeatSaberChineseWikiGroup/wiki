@@ -13,5 +13,6 @@
     "Polly51104"
   ], 
   "desc_en": "View extra information about your swings", 
-  "editpath": "src/server/mod_db/quest/slicedetails.json"
+  "editpath": "src/server/mod_db/quest/slicedetails.json", 
+  "name_zh": null
 }

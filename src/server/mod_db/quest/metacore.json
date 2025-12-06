@@ -12,5 +12,6 @@
     "Metalit"
   ], 
   "desc_en": "Provides way too many utilities for mod developers", 
-  "editpath": "src/server/mod_db/quest/metacore.json"
+  "editpath": "src/server/mod_db/quest/metacore.json", 
+  "name_zh": null
 }

@@ -22,5 +22,6 @@
     "Loloppe"
   ], 
   "desc_en": "# Enhancements\n**Features**\n- Configurable clock\n- Timers with notification\n- Breaktime notification during gameplay\n- Specific volume configuration\n- Pause menu temporary button lock", 
-  "editpath": "src/server/mod_db/pc/Enhancements.json"
+  "editpath": "src/server/mod_db/pc/Enhancements.json", 
+  "name_zh": null
 }

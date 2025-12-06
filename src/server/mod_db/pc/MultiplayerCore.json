@@ -20,5 +20,6 @@
     "Kevin Hammett"
   ], 
   "desc_en": "A Beat Saber mod that implements core custom multiplayer functionality.", 
-  "editpath": "src/server/mod_db/pc/MultiplayerCore.json"
+  "editpath": "src/server/mod_db/pc/MultiplayerCore.json", 
+  "name_zh": null
 }

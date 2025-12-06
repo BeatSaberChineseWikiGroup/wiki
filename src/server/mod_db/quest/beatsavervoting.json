@@ -12,5 +12,6 @@
     "RedBrumbler"
   ], 
   "desc_en": "Quest mod to allow users to vote on beatsaver", 
-  "editpath": "src/server/mod_db/quest/beatsavervoting.json"
+  "editpath": "src/server/mod_db/quest/beatsavervoting.json", 
+  "name_zh": null
 }

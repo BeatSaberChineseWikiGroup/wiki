@@ -13,5 +13,6 @@
     "gabriella ✨#6859"
   ], 
   "desc_en": "Stops the annoying BTS characters from spawning whilst playing their maps.", 
-  "editpath": "src/server/mod_db/quest/bts-yeeter.json"
+  "editpath": "src/server/mod_db/quest/bts-yeeter.json", 
+  "name_zh": null
 }

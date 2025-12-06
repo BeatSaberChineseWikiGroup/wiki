@@ -21,5 +21,6 @@
     "Aryetis"
   ], 
   "desc_en": "Automatically and stealthily pause your game at the start of every song waiting for potential lag spikes to end.", 
-  "editpath": "src/server/mod_db/pc/AutoPauseStealth.json"
+  "editpath": "src/server/mod_db/pc/AutoPauseStealth.json", 
+  "name_zh": null
 }

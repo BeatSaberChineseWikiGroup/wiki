@@ -12,5 +12,6 @@
     "FutureMapper"
   ], 
   "desc_en": "Reverts haptics to pre-1.35 behavior", 
-  "editpath": "src/server/mod_db/quest/haptic-revert.json"
+  "editpath": "src/server/mod_db/quest/haptic-revert.json", 
+  "name_zh": null
 }

@@ -20,5 +20,6 @@
     "Kinsi"
   ], 
   "desc_en": "A collection of various tweaks which by themselves are to simple for their own designated mods", 
-  "editpath": "src/server/mod_db/pc/Tweaks55.json"
+  "editpath": "src/server/mod_db/pc/Tweaks55.json", 
+  "name_zh": null
 }

@@ -12,5 +12,6 @@
     "Metalit"
   ], 
   "desc_en": "Lets you play with custom models for sabers, notes, and walls!", 
-  "editpath": "src/server/mod_db/quest/custommodels.json"
+  "editpath": "src/server/mod_db/quest/custommodels.json", 
+  "name_zh": null
 }

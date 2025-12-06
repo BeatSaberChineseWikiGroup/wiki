@@ -13,5 +13,6 @@
     "DanTheMan827"
   ], 
   "desc_en": "Hides the promo banner on the main screen.", 
-  "editpath": "src/server/mod_db/quest/NoPromo.json"
+  "editpath": "src/server/mod_db/quest/NoPromo.json", 
+  "name_zh": null
 }

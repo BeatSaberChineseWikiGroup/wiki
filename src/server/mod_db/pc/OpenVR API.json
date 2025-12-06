@@ -33,5 +33,6 @@
     "nicoco007"
   ], 
   "desc_en": "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (SteamVR).\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-03T12:48:41.563Z.", 
-  "editpath": "src/server/mod_db/pc/OpenVR API.json"
+  "editpath": "src/server/mod_db/pc/OpenVR API.json", 
+  "name_zh": null
 }

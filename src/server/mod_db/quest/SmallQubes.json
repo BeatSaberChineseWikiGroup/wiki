@@ -12,5 +12,6 @@
     "NSGolova"
   ], 
   "desc_en": "Adds a slider to change default cubes size", 
-  "editpath": "src/server/mod_db/quest/SmallQubes.json"
+  "editpath": "src/server/mod_db/quest/SmallQubes.json", 
+  "name_zh": null
 }

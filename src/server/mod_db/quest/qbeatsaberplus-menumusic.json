@@ -13,5 +13,6 @@
     "HardCPP"
   ], 
   "desc_en": "Feel good!", 
-  "editpath": "src/server/mod_db/quest/qbeatsaberplus-menumusic.json"
+  "editpath": "src/server/mod_db/quest/qbeatsaberplus-menumusic.json", 
+  "name_zh": null
 }

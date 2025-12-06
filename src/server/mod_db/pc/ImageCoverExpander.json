@@ -23,5 +23,6 @@
     "qqrz997"
   ], 
   "desc_en": "Expands and customize the image cover container in the song selection!", 
-  "editpath": "src/server/mod_db/pc/ImageCoverExpander.json"
+  "editpath": "src/server/mod_db/pc/ImageCoverExpander.json", 
+  "name_zh": null
 }

@@ -12,5 +12,6 @@
     "Henri"
   ], 
   "desc_en": "Beat Saber At Your Finger Tips. Discord @drumtool", 
-  "editpath": "src/server/mod_db/quest/fingersaber.json"
+  "editpath": "src/server/mod_db/quest/fingersaber.json", 
+  "name_zh": null
 }

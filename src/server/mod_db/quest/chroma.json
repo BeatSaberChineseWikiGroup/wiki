@@ -12,5 +12,6 @@
     "Aeroluna, FernTheDev, nyamimi~"
   ], 
   "desc_en": "Colors!", 
-  "editpath": "src/server/mod_db/quest/chroma.json"
+  "editpath": "src/server/mod_db/quest/chroma.json", 
+  "name_zh": null
 }

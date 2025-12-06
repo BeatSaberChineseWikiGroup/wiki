@@ -20,5 +20,6 @@
     "nicoco007"
   ], 
   "desc_en": "A utility/library which provides useful tools to Beat Saber modders.", 
-  "editpath": "src/server/mod_db/pc/SiraUtil.json"
+  "editpath": "src/server/mod_db/pc/SiraUtil.json", 
+  "name_zh": null
 }

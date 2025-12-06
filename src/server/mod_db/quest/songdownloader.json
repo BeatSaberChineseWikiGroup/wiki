@@ -13,5 +13,6 @@
     "darknight1050, EnderdracheLP, Metalit"
   ], 
   "desc_en": "Download Custom Songs at Runtime", 
-  "editpath": "src/server/mod_db/quest/songdownloader.json"
+  "editpath": "src/server/mod_db/quest/songdownloader.json", 
+  "name_zh": null
 }

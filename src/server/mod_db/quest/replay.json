@@ -13,5 +13,6 @@
     "Metalit"
   ], 
   "desc_en": "Watch back your best scores!", 
-  "editpath": "src/server/mod_db/quest/replay.json"
+  "editpath": "src/server/mod_db/quest/replay.json", 
+  "name_zh": "回放录像"
 }

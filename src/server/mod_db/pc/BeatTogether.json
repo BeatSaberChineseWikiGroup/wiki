@@ -25,5 +25,6 @@
     "Kevin Hammett"
   ], 
   "desc_en": "A multiplayer private server for the modding community with support for crossplay between PC and Quest.", 
-  "editpath": "src/server/mod_db/pc/BeatTogether.json"
+  "editpath": "src/server/mod_db/pc/BeatTogether.json", 
+  "name_zh": null
 }

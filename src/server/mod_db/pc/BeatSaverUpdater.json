@@ -25,5 +25,6 @@
     "Isaiah Billingsley"
   ], 
   "desc_en": "Alerts you of updates to beatmaps on BeatSaver and updates them to the latest version.", 
-  "editpath": "src/server/mod_db/pc/BeatSaverUpdater.json"
+  "editpath": "src/server/mod_db/pc/BeatSaverUpdater.json", 
+  "name_zh": null
 }

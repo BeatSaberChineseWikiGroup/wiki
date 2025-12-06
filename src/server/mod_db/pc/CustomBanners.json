@@ -21,5 +21,6 @@
     "Loloppe"
   ], 
   "desc_en": "Display images as banners or cycle through them automatically\n\nThis mod was imported from BeatMods, and was originally uploaded by Toni Macaroni at 2021-09-05T18:43:59.689Z.", 
-  "editpath": "src/server/mod_db/pc/CustomBanners.json"
+  "editpath": "src/server/mod_db/pc/CustomBanners.json", 
+  "name_zh": null
 }

@@ -20,5 +20,6 @@
     "Sirspam"
   ], 
   "desc_en": "Beat Saber mod that brings back the pillars from the 1.13.2 menu environment and adds customisable lights to them", 
-  "editpath": "src/server/mod_db/pc/MenuPillars.json"
+  "editpath": "src/server/mod_db/pc/MenuPillars.json", 
+  "name_zh": null
 }

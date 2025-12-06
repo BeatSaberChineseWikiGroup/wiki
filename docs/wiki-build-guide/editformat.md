@@ -71,6 +71,9 @@ sidebar_position: 200
 <模组大卡 平台="PC" 名称="BeatLeader" />
 <模组 平台="PC" 名称="BeatLeader" />
 ```
+
+这里的名称取仓库里面的Json文件名（PC是模组名字，quest是模组id，不区分大小写）。
+
 ### 示例
 
 大卡：

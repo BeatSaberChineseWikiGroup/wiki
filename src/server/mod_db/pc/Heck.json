@@ -17,5 +17,6 @@
     "Aeroluna"
   ], 
   "desc_en": "Library for Aeroluna's mods.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2024-11-20T01:32:30.296Z.", 
-  "editpath": "src/server/mod_db/pc/Heck.json"
+  "editpath": "src/server/mod_db/pc/Heck.json", 
+  "name_zh": null
 }

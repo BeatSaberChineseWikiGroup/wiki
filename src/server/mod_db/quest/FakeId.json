@@ -13,5 +13,6 @@
     "DanTheMan827"
   ], 
   "desc_en": "Sets the player age to an adult.", 
-  "editpath": "src/server/mod_db/quest/FakeId.json"
+  "editpath": "src/server/mod_db/quest/FakeId.json", 
+  "name_zh": null
 }

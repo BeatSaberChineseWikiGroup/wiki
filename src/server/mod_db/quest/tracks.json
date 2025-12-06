@@ -12,5 +12,6 @@
     "StackDoubleFlow, Fernthedev"
   ], 
   "desc_en": "Animation for Noodle and Chroma. Requires CustomJSONData. Don't delete", 
-  "editpath": "src/server/mod_db/quest/tracks.json"
+  "editpath": "src/server/mod_db/quest/tracks.json", 
+  "name_zh": null
 }

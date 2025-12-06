@@ -57,7 +57,7 @@ function renderMod(modData: ModData){
             <div className="card__header">
                 <h3 style={{
                     textAlign: "center"
-                }}>{modData.name}<sup style={{
+                }}>{modData.name + (modData.name_zh && modData.name_zh != null ? ("/" + modData.name_zh) : "")}<sup style={{
                     transform: "scale(0.7)"
                 }} className={modData.platform == 'pc' ? 'badge badge--success' : 'badge badge--info'}>{modData.platform == 'pc' ? 'PC' : 'Quest'}</sup></h3>
             </div>
@@ -78,6 +78,9 @@ function renderMod(modData: ModData){
 function 模组大卡({ 平台, 名称, platform, name }) {
     let p = platform || 平台;
     let n = name || 名称 || getPageName();
+
+    if(p != undefined)
+        p = p.toLowerCase()
 
     let ret = []
 
@@ -111,15 +114,17 @@ function 模组大卡({ 平台, 名称, platform, name }) {
 
 function renderSmallMod(modData:ModData){
     if(modData.modPage){
-        return <Link href={'docs/mod-info/' + modData.modPage}>modData.name</Link>
+        return <Link href={'/docs/mod-info/' + modData.modPage}>{modData.name + (modData.name_zh && modData.name_zh != null ? ("(" + modData.name_zh + ")") : "")}</Link>
     }else{
-        return <span>modData.name</span>
+        return <span>{modData.name + (modData.name_zh && modData.name_zh != null ? ("(" + modData.name_zh + ")") : "")}</span>
     }
 }
 
 function 模组({ 平台, 名称, platform, name }) {
     let p = platform || 平台;
     let n = name || 名称 || getPageName();
+    if(p != undefined)
+        p = p.toLowerCase()
 
     let ret = []
 

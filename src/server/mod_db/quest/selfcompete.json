@@ -12,5 +12,6 @@
     "TheZipCreator"
   ], 
   "desc_en": "Displays a ranking of how you're doing on the map you're playing compared to all other times you played that map.", 
-  "editpath": "src/server/mod_db/quest/selfcompete.json"
+  "editpath": "src/server/mod_db/quest/selfcompete.json", 
+  "name_zh": null
 }

@@ -12,5 +12,6 @@
     "KodenameKRAK, Henri"
   ], 
   "desc_en": "Menu saber colors reflect in game saber colors.", 
-  "editpath": "src/server/mod_db/quest/qonsistentsabercolors.json"
+  "editpath": "src/server/mod_db/quest/qonsistentsabercolors.json", 
+  "name_zh": null
 }

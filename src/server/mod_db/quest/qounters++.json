@@ -13,5 +13,6 @@
     "Metalit"
   ], 
   "desc_en": "Add endlessly customizable counters to your ingame UI!", 
-  "editpath": "src/server/mod_db/quest/qounters++.json"
+  "editpath": "src/server/mod_db/quest/qounters++.json", 
+  "name_zh": null
 }

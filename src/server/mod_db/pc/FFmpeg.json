@@ -58,5 +58,6 @@
     "Kevga"
   ], 
   "desc_en": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created.", 
-  "editpath": "src/server/mod_db/pc/FFmpeg.json"
+  "editpath": "src/server/mod_db/pc/FFmpeg.json", 
+  "name_zh": null
 }
