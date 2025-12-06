@@ -1,0 +1,17 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "GraphicsTweaks", 
+  "game_ver": [
+    "1.37.0_9064817954", 
+    "1.40.8_7379"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "FrozenAlex, Futuremappermydud"
+  ], 
+  "desc_en": "Mod to unlock pc graphics settings on quest beat saber", 
+  "editpath": "src/server/mod_db/quest/graphicstweaks.json"
+}

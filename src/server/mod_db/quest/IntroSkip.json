@@ -1,0 +1,17 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "Intro Skip", 
+  "game_ver": [
+    "1.37.0_9064817954", 
+    "1.40.8_7379"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "Polly51104"
+  ], 
+  "desc_en": "Skip the intro and outro of maps", 
+  "editpath": "src/server/mod_db/quest/IntroSkip.json"
+}

@@ -1,6 +1,6 @@
 '''
 
-自动读取static/mod_db中的json数据，并生成mod_data_generated.ts文件
+自动读取src/server/mod_db中的json数据，并生成mod_data_generated.ts文件
 
 '''
 import pathlib
@@ -27,7 +27,7 @@ def read_json(f:pathlib.Path):
         createModMarkdown(mdfile, data)
 
 
-for f in pathlib.Path("static/mod_db").rglob("**/*.json"):
+for f in pathlib.Path("src/server/mod_db").rglob("**/*.json"):
     read_json(f)
 
 pathlib.Path('src/server/mod_data_generated.ts').write_text("""

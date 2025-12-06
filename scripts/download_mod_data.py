@@ -1,6 +1,6 @@
 '''
 
-直接使用即可，在git根目录下执行，会自动更新static/mod_db中的数据
+直接使用即可，在git根目录下执行，会自动更新src/server/mod_db中的数据
 
 '''
 
@@ -66,7 +66,7 @@ for version in VERSIONS_QUEST:
     # handle quest pages
     for k in modjson:
         latest = modjson[k][max(modjson[k])]
-        page_name = f"static/mod_db/quest/{latest['id']}.json"
+        page_name = f"src/server/mod_db/quest/{latest['id']}.json"
 
         if page_name in buffered_pages:
             buffered_page = buffered_pages[page_name]
@@ -90,7 +90,7 @@ for version in VERSIONS_PC:
     for mod in pcmods["mods"]:
         _latest = mod["latest"]
         _mod = mod["mod"]
-        page_name = f"static/mod_db/pc/{_mod["name"]}.json"
+        page_name = f"src/server/mod_db/pc/{_mod["name"]}.json"
         
         if page_name in buffered_pages:
             buffered_page = buffered_pages[page_name]

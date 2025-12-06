@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "BSEvents", 
+  "game_ver": [
+    "1.37.0_9064817954"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "kodenamekrak"
+  ], 
+  "desc_en": "Adds various events for mods to subscribe to", 
+  "editpath": "src/server/mod_db/quest/bs-events.json"
+}

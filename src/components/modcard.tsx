@@ -65,8 +65,7 @@ function renderMod(modData: ModData){
                 <p style={{textAlign:"right"}}>
                     作者：{modData.authors}
                 </p>
-                <p>
-                    {modData.desc_zh ?? modData.desc_en }
+                <p dangerouslySetInnerHTML={{__html: modData.desc_zh ?? modData.desc_en}}>
                 </p>
                 <p style={{textAlign:'right'}}><a href={urls.edit_url + modData.editpath } >编辑</a></p>
             </div>

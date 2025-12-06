@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "SimpleSabers", 
+  "game_ver": [
+    "1.37.0_9064817954"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "Metalit"
+  ], 
+  "desc_en": "Tweak the default saber and trail", 
+  "editpath": "src/server/mod_db/quest/simplesabers.json"
+}
