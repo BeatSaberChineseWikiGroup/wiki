@@ -1,12 +1,12 @@
 {
   "platform": "quest", 
-  "modPage": null, 
+  "modPage": "BeatLeader", 
   "name": "BeatLeader", 
   "game_ver": [
     "1.37.0_9064817954", 
     "1.40.8_7379"
   ], 
-  "desc_zh": null, 
+  "desc_zh": "<a href='https://beatleader.com'>beatleader.com</a> | 自制谱面/OST排行榜 | 录制回放 | 战队、赛事、歌单等等", 
   "extern_links": [], 
   "iscore": false, 
   "authors": [
