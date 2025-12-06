@@ -1,6 +1,6 @@
 {
   "platform": "pc", 
-  "modPage": null, 
+  "modPage": "BeatLeader", 
   "name": "BeatLeader", 
   "game_ver": [
     "1.40.2", 
@@ -11,7 +11,7 @@
     "1.40.7", 
     "1.40.8"
   ], 
-  "desc_zh": null, 
+  "desc_zh": "开源排行榜。带有战队/谱面rank投票/分数细节统计以及在线回放功能。", 
   "extern_links": [], 
   "iscore": false, 
   "authors": [
