@@ -20,6 +20,8 @@ VERSIONS_PC = [
     "1.40.8"
 ]
 
+proxy = {}
+
 corejson = requests.get(f"https://github.com/QuestPackageManager/bs-coremods/raw/refs/heads/main/core_mods.json",
                         proxies=proxy).json()
 
