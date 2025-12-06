@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "Haptic Revert", 
+  "game_ver": [
+    "1.37.0_9064817954"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "FutureMapper"
+  ], 
+  "desc_en": "Reverts haptics to pre-1.35 behavior", 
+  "editpath": "static/mod_db/quest/haptic-revert.json"
+}

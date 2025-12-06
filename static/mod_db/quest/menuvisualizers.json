@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "MenuVisualizer", 
+  "game_ver": [
+    "1.40.8_7379"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "laynia"
+  ], 
+  "desc_en": "Adds a visualizer to the menu", 
+  "editpath": "static/mod_db/quest/menuvisualizers.json"
+}

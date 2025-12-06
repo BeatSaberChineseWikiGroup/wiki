@@ -2,15 +2,11 @@ import { useActiveDocContext, useDocById } from '@docusaurus/plugin-content-docs
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { CSSProperties } from 'react';
 
-interface ModData{
-    platform: 'pc' | 'quest',
-    modPage?:string,
-    name:string,
-    game_ver: string[],
-    desc_zh: string|null,
-    extern_links: string[]
-}
+import { ModData } from '../mod_data';
 
+import modDataGenerated from "@site/src/server/mod_data_generated"
+import Link from '@docusaurus/Link';
+import urls from '@site/urls';
 function getPageName(){
         let pageName = undefined
     {
@@ -25,6 +21,7 @@ function getPageName(){
     return pageName
 }
 
+
 function renderMod(modData: ModData){
     let pageName = getPageName()
 
@@ -32,6 +29,10 @@ function renderMod(modData: ModData){
 
     let isSelfPage = pageName != undefined && modData.modPage != undefined && pageName == modData.modPage
     let isNotSelfPage = pageName != undefined && modData.modPage != undefined && modData.modPage != pageName
+
+    if(pageName != undefined && modData.name.toLowerCase() == pageName.toLowerCase()){
+        isSelfPage = true
+    }
 
     if(isNotSelfPage){
         foots.push(<div className="card__footer">
@@ -48,8 +49,9 @@ function renderMod(modData: ModData){
         cardStyle.color = 'black'
     }
 
-    return <div style={{
+    return <div key={modData.name + modData.platform} style={{
         width: "360px",
+        display: 'inline-block'
     }}>
         <div className={isSelfPage ? "card shadow--tl" : "card shadow--lw"} style={cardStyle}>
             <div className="card__header">
@@ -60,9 +62,13 @@ function renderMod(modData: ModData){
                 }} className={modData.platform == 'pc' ? 'badge badge--success' : 'badge badge--info'}>{modData.platform == 'pc' ? 'PC' : 'Quest'}</sup></h3>
             </div>
             <div className="card__body">
-                <p>
-                    {modData.desc_zh ?? "暂无中文简介。"}
+                <p style={{textAlign:"right"}}>
+                    作者：{modData.authors}
                 </p>
+                <p>
+                    {modData.desc_zh ?? modData.desc_en }
+                </p>
+                <p style={{textAlign:'right'}}><a href={urls.edit_url + modData.editpath } >编辑</a></p>
             </div>
             {foots}
         </div>
@@ -74,42 +80,73 @@ function 模组大卡({ 平台, 名称, platform, name }) {
     let p = platform || 平台;
     let n = name || 名称 || getPageName();
 
-    return renderMod({
-        name: n,
-        platform: platform,
-        game_ver: ['1.40.8','1.40.7'],
-        desc_zh: "中文介绍TODO",
-        extern_links: [],
-        modPage: n
-    })
+    let ret = []
 
+    if(n == undefined){
+        return <p>模组名称不能为空</p>
+    }
+
+
+
+    if(p == 'pc' || p == undefined){
+        let data = modDataGenerated.pc[n.toLowerCase()]
+        if(data != undefined){
+            ret.push(renderMod(data))
+        }
+    }
+
+    if(p == 'quest' || p == undefined){
+        let data = modDataGenerated.quest[n.toLowerCase()]
+        if(data != undefined){
+            ret.push(renderMod(data))
+        }
+    }
+
+    if(ret.length == 0){
+        return <p>没有找到名为{n}的模组</p>
+    }
+
+    return <>{ret}</>
+
+}
+
+function renderSmallMod(modData:ModData){
+    if(modData.modPage){
+        return <Link href={'docs/mod-info/' + modData.modPage}>modData.name</Link>
+    }else{
+        return <span>modData.name</span>
+    }
 }
 
 function 模组({ 平台, 名称, platform, name }) {
     let p = platform || 平台;
-    let n = name || 名称;
+    let n = name || 名称 || getPageName();
 
-    if (n == undefined) {
-        n = useActiveDocContext(undefined)?.activeDoc?.id
-        if (n) {
-            let tmp = n.split("/")
-            if (tmp.length > 0) {
-                n = tmp[tmp.length - 1]
-            }
+    let ret = []
+
+    if(n == undefined){
+        return <p>模组名称不能为空</p>
+    }
+
+    if(p == 'pc' || p == undefined){
+        let data = modDataGenerated.pc[n.toLowerCase()]
+        if(data != undefined){
+            ret.push(renderSmallMod(data))
         }
     }
 
-    return <div style={
-        {
-            border: "1px solid black",
-            background: "gray",
-            margin: "4px",
-            padding: "4px",
-            width: "fit-content"
+    if(p == 'quest' || p == undefined){
+        let data = modDataGenerated.quest[n.toLowerCase()]
+        if(data != undefined){
+            ret.push(renderSmallMod(data))
         }
-    }>
-        模组信息占位（{p}，{n}）
-    </div>
+    }
+
+    if(ret.length == 0){
+        return <span>{n}(无维基数据)</span>
+    }
+    return <>{ret}</>
+
 }
 
 

@@ -18,6 +18,8 @@ function getDocFiles(){
   return ret
 }
 
+import urls from './urls';
+
 const config: Config = {
   title: '节奏光剑模组中文维基',
   tagline: '维基建设中……',
@@ -54,14 +56,14 @@ const config: Config = {
       'classic',
       {
         pages:{
-          editUrl: 'https://github.com/BeatSaberCN/wiki/edit/master/'
+          editUrl: urls.edit_url
         },
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/BeatSaberCN/wiki/edit/master/',
+            urls.edit_url,
         },
         blog: {
           blogSidebarTitle: '最近更新',
@@ -73,7 +75,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/BeatSaberCN/wiki/edit/master/',
+            urls.edit_url,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -115,7 +117,7 @@ const config: Config = {
       style: 'dark',
       links: [
       ],
-      copyright: `版权所有 © ${new Date().getFullYear()} 节奏光剑中文维基编辑组，基于扩展的Docusaurus。维基内容以CC BY-NC-SA 4.0协议许可，严禁商业使用。`,
+      copyright: `版权所有 © ${new Date().getFullYear()} 节奏光剑中文维基编辑组，基于扩展的Docusaurus。维基内容以CC BY-NC-SA 4.0协议许可，严禁商业使用。<br/>模组英文数据来自<a href='https://beatmods.com/mods'>BeatMods</a>和<a href='https://mods.bsquest.xyz/'>bsqmods</a>，本站非主要展示用途，其版权归原作者所有。`,
     },
     prism: {
       theme: prismThemes.github,

@@ -1,0 +1,24 @@
+{
+  "platform": "pc", 
+  "modPage": null, 
+  "name": "MenuSelector", 
+  "game_ver": [
+    "1.40.0", 
+    "1.40.1", 
+    "1.40.2", 
+    "1.40.3", 
+    "1.40.4", 
+    "1.40.5", 
+    "1.40.6", 
+    "1.40.7", 
+    "1.40.8"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "qqrz997"
+  ], 
+  "desc_en": "# MenuSelector\r\n PC Beat Saber plugin that adds the option to switch between the different built-in menu environments.\r\n\r\n## Usage\r\nLocate the \"Menu Selector\" button in the left of the main menu to access the Menu Selector screen.\r\n", 
+  "editpath": "static/mod_db/pc/MenuSelector.json"
+}

@@ -1,0 +1,17 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "BTS Yeeter", 
+  "game_ver": [
+    "1.37.0_9064817954", 
+    "1.40.8_7379"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "gabriella ✨#6859"
+  ], 
+  "desc_en": "Stops the annoying BTS characters from spawning whilst playing their maps.", 
+  "editpath": "static/mod_db/quest/bts-yeeter.json"
+}

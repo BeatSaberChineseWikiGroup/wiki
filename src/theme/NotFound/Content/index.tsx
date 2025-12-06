@@ -8,6 +8,8 @@ import useIsBrowser from '@docusaurus/useIsBrowser';
 
 type Props = WrapperProps<typeof ContentType>;
 
+import urls from '@site/urls';
+
 const markdown_template = `---
 sidebar_position: 200
 ---
@@ -22,7 +24,7 @@ export default function ContentWrapper(props: Props): ReactNode {
   if(useIsBrowser()){
     let url = window.location.pathname
     if (url.startsWith(config.baseUrl + "docs")) {
-      let fileUrl = 'https://github.com/BeatSaberCN/wiki/new/master/' + url.substring(config.baseUrl.length) + ".md"
+      let fileUrl = urls.new_url + url.substring(config.baseUrl.length) + ".md"
       let folderSplit = fileUrl.lastIndexOf("/")
       let githubUrl = fileUrl.substring(0, folderSplit) + "?filename=" + encodeURIComponent(fileUrl.substring(folderSplit + 1)) + "&value=" + encodeURIComponent(markdown_template)
       appends.push(<a key="docedit" className='button button--warning' style={{ textAlign: "center", display:'inline-block', width:'fit-content', margin:'auto' }} href={githubUrl}>在Github上创建这个页面<sup className='badge badge--info' style={{

@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "Endless", 
+  "game_ver": [
+    "1.37.0_9064817954"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "TheZipCreator"
+  ], 
+  "desc_en": "Allows you to play endlessly, or at least until you fail.", 
+  "editpath": "static/mod_db/quest/endless.json"
+}

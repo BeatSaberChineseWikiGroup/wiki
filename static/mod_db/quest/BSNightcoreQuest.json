@@ -1,0 +1,17 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "BSNightcoreQuest", 
+  "game_ver": [
+    "1.37.0_9064817954", 
+    "1.40.8_7379"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "Tatenshi"
+  ], 
+  "desc_en": "Removes pitch compensation to make songs go nightcore on different speed", 
+  "editpath": "static/mod_db/quest/BSNightcoreQuest.json"
+}

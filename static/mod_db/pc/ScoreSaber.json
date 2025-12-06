@@ -1,0 +1,25 @@
+{
+  "platform": "pc", 
+  "modPage": null, 
+  "name": "ScoreSaber", 
+  "game_ver": [
+    "1.40.0", 
+    "1.40.1", 
+    "1.40.2", 
+    "1.40.3", 
+    "1.40.4", 
+    "1.40.5", 
+    "1.40.6", 
+    "1.40.7", 
+    "1.40.8"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "Julian", 
+    "Umbranox"
+  ], 
+  "desc_en": "Beat Saber's largest leaderboard system for custom songs. Earn PP from ranked maps, compare scores with others and watch replays.", 
+  "editpath": "static/mod_db/pc/ScoreSaber.json"
+}

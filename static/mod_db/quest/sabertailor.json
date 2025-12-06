@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "Saber Tailor", 
+  "game_ver": [
+    "1.37.0_9064817954"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "Polly51104"
+  ], 
+  "desc_en": "Edit controller settings for each saber independently. Also includes Kinsi's Controller Settings Helper mod", 
+  "editpath": "static/mod_db/quest/sabertailor.json"
+}

@@ -1,0 +1,16 @@
+{
+  "platform": "quest", 
+  "modPage": null, 
+  "name": "Qosmetics Whackers", 
+  "game_ver": [
+    "1.37.0_9064817954"
+  ], 
+  "desc_zh": null, 
+  "extern_links": [], 
+  "iscore": false, 
+  "authors": [
+    "RedBrumbler"
+  ], 
+  "desc_en": "Qosmetics module that adds Whacker capabilities", 
+  "editpath": "static/mod_db/quest/qosmetics-sabers.json"
+}
